@@ -26,7 +26,8 @@ npm install pm2 -g && pm2 install pm2-logrotate
 ##### Start Server
 ```bash
 pm2 start server/server.js --name uptime-kuma
-node --max-http-header-size=48000 server/server.js
+# OR
+node --max-http-header-size=48000 server/server.js # preferred for now
 ```
 #### Install required packages
 ```bash
