@@ -26,6 +26,11 @@ npm install pm2 -g && pm2 install pm2-logrotate
 pm2 start server/server.js --name uptime-kuma
 node --max-http-header-size=48000 server/server.js
 ```
+#### Add websites to monitor in inventory.yml
+```bash
+vim inventory.yml
+```
+
 
 #### Add notification
 ```bash
