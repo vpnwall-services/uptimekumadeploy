@@ -1,0 +1,3 @@
+websites:
+  - {url: 'site1.localhost.local'}
+  - {url: 'site2.localhost.local', state: 'absent'}
